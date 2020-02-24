@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "LAGOU",
+    "slug": "LAGOU",
+    "privacy": "public",
+    "sdkVersion": "36.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon":"https://s3.amazonaws.com/exp-us-standard/rnplay/app-icon.png",
+    "splash": {
+      "image": "./assets/start.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.mhwcompany.LAGOU",
+      "buildNumber": "1.0.0"
+    },
+    "android": {
+      "package": "com.mhwcompany.LAGOU",
+      "versionCode": 1
+    }
+  }
+}
